@@ -1,6 +1,6 @@
-#AWS Architecture
-##Description:
-*** ***This repository contains a YAML script to instantiate a minimally-functional AWS infrastructure as follows:
+# AWS Architecture #
+## Description: ##
+***This repository contains a YAML script to instantiate a minimally-functional AWS infrastructure as follows:
 - Virtual Private Cloud (VPC) - CIDR Block (10.0.0.0/16)
  - Public Subnet - CIDR Block (10.0.0.0/24)
  - Private Subnet - CIDR Block (10.0.16.0/20)
@@ -12,6 +12,6 @@
  - Public subnet through the Internet Gateway
  - Private subnet through the NAT Gateway, which in turn connects to the WWW through the Internet Gateway.
 
-#Diagram
-*** ***The setup is concisely illustrated below.
+Diagram
+***The setup is concisely illustrated below.
 
