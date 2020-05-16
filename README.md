@@ -14,5 +14,5 @@
 
 ## Diagram ##
 ### The setup is concisely illustrated below. ###
-![AWS Architecture](Images/AWS Infrastructure.pdf)
+![AWS Architecture](Images/AWS%20Infrastructure.pdf)
 
