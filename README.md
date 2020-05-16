@@ -12,6 +12,6 @@
  - Public subnet through the Internet Gateway
  - Private subnet through the NAT Gateway, which in turn connects to the WWW through the Internet Gateway.
 
-Diagram
-***The setup is concisely illustrated below.
+## Diagram ##
+### The setup is concisely illustrated below. ###
 
