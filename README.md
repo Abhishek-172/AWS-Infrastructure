@@ -14,5 +14,3 @@
 
 ## Diagram ##
 ### The setup is concisely illustrated below. ###
-![AWS Architecture](Images/AWSInfrastructure.png)
-
