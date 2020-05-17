@@ -14,8 +14,13 @@
 5. Provision an NAT Gateway to enable instances in private subnet to connect to the internet or other AWS services, but prevent     the internet from initiating a connection with those instances.
 6. Provision an Custom NACL and associate Both Subnets (Private and Public)
  - Inbound Rules:
- ![](Images/)
 
+![](Images/NACLInbound.png)
+ 
+ - Outbound Rules:
+ 
+![](Images/) 
+ 
 ## Diagram ##
 ### The setup is concisely illustrated below. ###
 ![](Images/AWSInfrastructure-1.png)
