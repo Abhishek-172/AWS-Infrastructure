@@ -17,7 +17,7 @@
  - Public subnet through the Internet Gateway
  - Private subnet through the NAT Gateway, which in turn connects to the WWW through the Internet Gateway.
 4. Provision an Internet Gateway and associate it with the VPC and edit the route in the Route Tables.
-5. Provision an NAT Gateway to enable instances in private subnet to connect to the internet or other AWS services, but prevent     the internet from initiating a connection with those instances.
+5. Provision an NAT Gateway to enable instances in private subnet to connect to the internet or other AWS services, but prevent the internet from initiating a connection with those instances.
 6. Provision an Custom NACL and associate Both Subnets (Private and Public)
  - Inbound Rules:
 
@@ -65,4 +65,11 @@
 
 ![](Images/PeeringConnection.png)
 
-
+11. Site to Site VPN Connection: As we don not have corporate datacenter so we did'nt setup an VPN Gateway and Customer Gateway.
+For Setup we require Virtual Private Gateway / Customer Gateway
+  - VPN concentrator is on the AWS side of the VPN conncetion.
+  - Virtual Gateway is created and attached to the VPC from which we need to create an Site to Site VPN connection.
+ - Customer Gateway: It is a physical device on the customer side of the VPN connection.
+ 
+ 
+ 
