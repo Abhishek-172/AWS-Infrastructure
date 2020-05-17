@@ -14,3 +14,4 @@
 
 ## Diagram ##
 ### The setup is concisely illustrated below. ###
+![](Images/AWSInfrastructure-1.png)
