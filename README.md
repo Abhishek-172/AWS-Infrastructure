@@ -51,3 +51,7 @@
   - CloudWatchLogs:
   
 ![](Images/CloudWatchLogs.png)  
+
+  - S3FlowLogs:
+  
+![]()
