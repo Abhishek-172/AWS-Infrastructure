@@ -1,4 +1,10 @@
 # AWS Architecture #
+
+## Diagram ##
+### The setup is concisely illustrated below. ###
+![](Images/AWSArchitecture-1.png)
+
+
 ## Description: ##
 ***This repository contains a YAML script to instantiate a minimally-functional AWS infrastructure as follows:
 - Virtual Private Cloud (VPC) - CIDR Block (10.0.0.0/16)
@@ -32,11 +38,11 @@
 
 
 8. Flow Logs: It captures information about IP traffic going into your interfaces,it helps to monitor and troubleshoot connectivity issues
- - VPC Flow Logs
- - Subnet Flow Logs
- - ENI Flow Logs
  
-## Diagram ##
-### The setup is concisely illustrated below. ###
-![](Images/AWSArchitecture-1.png)
+ - Flow logs are published to CloudwatchLogs and S3 Bucket:
+  - Cloudwatch: Created an IAM role and attach it to the flow log in cloudwatch logs.
+  - S3: Created an S3 Bucket, then in flow logs creation tab we added the Bucket ARN.
+  
+  - NOTE:
+    A resource based policy will be created automatically and attached to the target bucket.
 
