@@ -47,3 +47,7 @@
     A resource based policy will be created automatically and attached to the target bucket.
 
 ![](Images/FlowLogs.png)
+
+  - CloudWatchLogs:
+  
+![](Images/CloudWatchLogs.png)  
