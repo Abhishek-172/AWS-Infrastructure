@@ -19,9 +19,8 @@
  
  - Outbound Rules:
 
-![](IMages/NACLOutbound.png)
+![](Images/NACLOutbound.png)
  
-![](Images/) 
  
 ## Diagram ##
 ### The setup is concisely illustrated below. ###
