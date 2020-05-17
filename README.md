@@ -23,7 +23,8 @@
  
 7. Provision an VPC Gateway Endpoint (S3), it allows private ec2 instance to connect to AWS services using a private network, it remove the need of Internet Gateway, NAT etc to access AWS services.
  - Attach an IAM role to the private instance (S3-full Access)
- 
+
+ ![](Images/IAMRole.png)
  
 ## Diagram ##
 ### The setup is concisely illustrated below. ###
