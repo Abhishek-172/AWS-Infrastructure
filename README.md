@@ -34,3 +34,11 @@
 ### The setup is concisely illustrated below. ###
 ![](Images/AWSArchitecture-1.png)
 
+8. Flow Logs: It captures information about IP traffic going into your interfaces,it helps to monitor and troubleshoot connectivity issues
+ - VPC Flow Logs
+ - Subnet Flow Logs
+ - ENI Flow Logs
+ 
+  - Syntax:
+  <version> <acc-id> <interface-id> <src-addr> <dst-addr> <src-port> <dstn-port> <protocol> <packets> <bytes> <start> <end>     <action> <log-status>
+ 
