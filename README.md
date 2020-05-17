@@ -63,6 +63,6 @@
 
 10. VPC Peering : Peered VPC (MyVPC) with Default VPC of same account.
 
-
+![](Images/PeeringConnection.png)
 
 
