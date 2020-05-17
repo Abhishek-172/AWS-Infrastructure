@@ -61,3 +61,8 @@
 
 ![](Images/Athena.png)
 
+10. VPC Peering : Peered VPC (MyVPC) with Default VPC of same account.
+
+
+
+
