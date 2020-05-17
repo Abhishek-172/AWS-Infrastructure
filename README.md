@@ -28,7 +28,7 @@
  
  - Add Route to Private Route Table (Endpoint Gateway Route)
  
- ![]()
+ ![](Images/PrivateRTS3.png)
 
 ## Diagram ##
 ### The setup is concisely illustrated below. ###
