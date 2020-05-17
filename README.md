@@ -26,6 +26,10 @@
 
  ![](Images/IAMRole.png)
  
+ - Add Route to Private Route Table (Endpoint Gateway Route)
+ 
+ ![]()
+
 ## Diagram ##
 ### The setup is concisely illustrated below. ###
 ![](Images/AWSArchitecture-1.png)
