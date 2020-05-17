@@ -12,7 +12,9 @@
  - Private subnet through the NAT Gateway, which in turn connects to the WWW through the Internet Gateway.
 4. Provision an Internet Gateway and associate it with the VPC and edit the route in the Route Tables.
 5. Provision an NAT Gateway to enable instances in private subnet to connect to the internet or other AWS services, but prevent     the internet from initiating a connection with those instances.
-6. 
+6. Provision an Custom NACL and associate Both Subnets (Private and Public)
+ - Inbound Rules:
+ ![](Images/)
 
 ## Diagram ##
 ### The setup is concisely illustrated below. ###
