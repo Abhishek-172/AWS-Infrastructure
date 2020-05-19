@@ -73,8 +73,11 @@
 
 ![](Images/PrivateEC2SSH.png)
 
+13. Route Out to Internet From Private Instance:
 
-13. Site to Site VPN Connection: As we don not have corporate datacenter so we did'nt setup an VPN Gateway and Customer Gateway.
+![](Images/Ping.png)
+
+14. Site to Site VPN Connection: As we don not have corporate datacenter so we did'nt setup an VPN Gateway and Customer Gateway.
 For Setup we require Virtual Private Gateway / Customer Gateway
   - VPN concentrator is on the AWS side of the VPN conncetion.
   - Virtual Gateway is created and attached to the VPC from which we need to create an Site to Site VPN connection.
