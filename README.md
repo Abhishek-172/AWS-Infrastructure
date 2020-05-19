@@ -6,7 +6,7 @@
 
 
 ## Description: ##
-***This repository contains a YAML script to instantiate a minimally-functional AWS infrastructure as follows:
+This repository contains a YAML script to instantiate a minimally-functional AWS infrastructure as follows:
 - Virtual Private Cloud (VPC) - CIDR Block (10.0.0.0/16)
  - Public Subnet - CIDR Block (10.0.0.0/24)
  - Private Subnet - CIDR Block (10.0.16.0/20)
@@ -88,6 +88,6 @@ For Setup we require Virtual Private Gateway / Customer Gateway
  - Customer Gateway: It is a physical device on the customer side of the VPN connection.
  
  
-# S3 Bucket ARN (YAML Template)#
+# S3 Bucket ARN (YAML Template)
  arn:aws:s3:::99cloudformationbucket
  
