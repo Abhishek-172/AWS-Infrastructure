@@ -4,6 +4,12 @@
 ### The setup is concisely illustrated below. ###
 ![](Images/AWSArchitecture-1.png)
 
+## UseCase ##
+
+Created an Amazon VPC to host multi-tier web applications and strictly enforce access and security restrictions between webservers,
+application servers, and databases. You can launch webservers in an publicly accessible subnet and application servers and databases in non-publically accessible subnets. The application servers and databases can't be directly accessed from the Internet, but they can still access the Internet via a NAT Gateway to download patches, for example You can control access between the servers and subnets using inbound and outbound packet filtering provided by network access control lists and security groups. It supports a VPC peering connection between VPC A and VPC B, which are in the same AWS account, and do not have overlapping CIDR blocks. In this way, each VPC will be able to access each others' resources without restriction. It supports VPC Endpoints connection to access S3 Bucket, enables instances in VPC to use their private IP addresses to communicate with resources in other services. The instances do not require public IP addresses, a Internet gateway, a NAT device, or a virtual private gateway in VPC. It supports VPC flowlogs to capture the In/Out traffic of the entire VPC to Cloudwatch logs and to the S3 Bucket.
+
+
 
 ## Description: ##
 This repository contains a YAML script to instantiate a minimally-functional AWS infrastructure as follows:
