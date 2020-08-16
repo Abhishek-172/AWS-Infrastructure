@@ -94,6 +94,3 @@ For Setup we require Virtual Private Gateway / Customer Gateway
  - Customer Gateway: It is a physical device on the customer side of the VPN connection.
  
  
-# S3 Bucket ARN (YAML Template)
- arn:aws:s3:::99cloudformationbucket
- 
